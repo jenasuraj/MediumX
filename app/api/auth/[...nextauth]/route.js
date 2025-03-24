@@ -8,9 +8,8 @@ export const authOptions = {
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     }),
   ],
-  secret: process.env.NEXTAUTH_SECRET,
   pages: {
-    signIn: "/login", // Redirect to login page if not signed in
+    signIn: "/", // Redirect to login page if not authenticated
   },
 };
 
