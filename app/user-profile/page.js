@@ -26,9 +26,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <h1 className="text-3xl">Welcome to the user profile page</h1>
-      <h1 className=" mb-4">Welcome, {session.user.name}</h1>
-      <h1 className="mb-4">{session.user.email}</h1>
+    
+      <h1 className=" mb-4 text-2xl">{session.user.name}</h1>
+      
       <img
         src={session.user.image}
         alt="User Avatar"

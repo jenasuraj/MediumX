@@ -2,7 +2,7 @@ import React from 'react'
 
 const AllPosts = () => {
     const items = ["Action","Science","Technology","Comedy","Joy","Mathematics","Medical","Engineering","Cartoon","Ui/Ux"]
-
+   // console.log("i am arrived-3")
   return (
     <div className=' h-screen w-3/4 border-r-1 border-gray-300 flex flex-col  items-center '>
 
