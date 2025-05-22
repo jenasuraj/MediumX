@@ -3,7 +3,7 @@
 A powerful full-stack blogging platform that allows users to create, read, update, and delete blog posts. It integrates AI-powered features using LangChain for content suggestions and enhancements. Built with modern technologies including Next.js, Express, FastAPI, and LangChain.
 
 <br/>
-<br/>
+
 <h2>🚀 Tech Stack</h2>
 
 Frontend (Next.js)
@@ -12,8 +12,6 @@ Backend (Node)<br/>
 Backend (Python)
 
 <br/>
-<br/>
-
 
 <h2>🔧 Features </h2>
 
