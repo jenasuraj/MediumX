@@ -64,8 +64,7 @@ uvicorn app:app --reload
 
 <h2>📌 To-Do</h2> <br/>
 
- Add file upload for images<br/>
- Enable markdown support<br/>
+
  Add social media sharing<br/>
  Deploy on Vercel (frontend) and Render/Heroku (backends)<br/>
 
