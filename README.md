@@ -16,9 +16,6 @@ Backend (Python)
 
 <h2>🔧 Features </h2>
 
-
-
-
 🔐 User Authentication (login/register)
 ✍️ Create, Read, Update, Delete (CRUD) for blog posts
 🧠 AI-generated suggestions using LangChain
@@ -27,7 +24,10 @@ Backend (Python)
 🔄 Real-time updates and seamless client-server communication
 
 
-📁 Project Structure
+<br/>
+<br/>
+
+<h2>📁 Project Structure</h2>
 blog-app/
 ├── client/               # Next.js frontend
 ├── server-node/          # Express.js backend for auth and REST APIs
