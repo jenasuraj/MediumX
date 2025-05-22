@@ -2,12 +2,15 @@
 import Navbar from "@/ui/Navbar";
 import { signIn, useSession } from "next-auth/react";
 import Image from "next/image";
-import AllPosts from "@/ui/AllPosts";
+import PostSection from "@/ui/PostSection";
 import SideTopics from "@/ui/SideTopics";
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-
+import { FcGoogle } from "react-icons/fc";
+import SecondPage from "@/ui/SecondPage";
+import Footer from "@/ui/Footer";
+import ThirdPage from "@/ui/ThirdPage";
 
 export default function Home() {
   const { data: session, status } = useSession();
@@ -90,13 +93,12 @@ export default function Home() {
 
 
 
-
-
   return (
     <>
       {status === "loading" ? (
         <p>Loading...</p>
       ) : !session ? (
+        <>
         <div className="flex items-center justify-center min-h-screen gap-5">
           <div>
             <h1 className="text-6xl mb-4">Explore the AI Blog</h1>
@@ -105,20 +107,24 @@ export default function Home() {
             </p>
             <button
               onClick={() => signIn("google")}
-              className="bg-black text-white px-4 rounded-md py-1 mt-5 cursor-pointer"
+              className="border border-gray-900  px-4 rounded-md py-1 mt-5 cursor-pointer flex gap-5 justify-center items-center hover:bg-black hover:text-white hover:transition-all"
             >
-              Get started
+              Get started <FcGoogle size={20}/>
             </button>
           </div>
 
           <Image src="/medium-home-page.png" width={400} height={1000} alt="home page" />
         </div>
+        <SecondPage/>
+        <ThirdPage/>
+        <Footer/>
+        </>
       ) : (
         <>
         <div className="relative">
         <Navbar />
           <div className="flex items-center justify-between min-h-screen w-full">
-            <AllPosts />
+            <PostSection />
             <SideTopics />
           </div>
           {atModal && (

@@ -17,7 +17,7 @@ export async function GET(req) {
         return NextResponse.json({ exists: false }, { status: 200 });
       }
     }
-
+    
     if (!email) {
       return NextResponse.json({ message: 'Email is required' }, { status: 400 });
     }
@@ -34,6 +34,10 @@ export async function GET(req) {
     return NextResponse.json({ message: 'Error fetching data.' }, { status: 500 });
   }
 }
+
+
+
+
 
 
 
