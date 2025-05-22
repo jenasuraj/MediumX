@@ -25,4 +25,6 @@ A powerful full-stack blogging platform that allows users to create, read, updat
 
 🛠️ Installation
 1. Clone the Repository
+git clone git@github.com:jenasuraj/MediumX.git
+cd MediumX   
 
