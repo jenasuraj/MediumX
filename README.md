@@ -1,4 +1,4 @@
-📝 Full-Stack Blog App
+<h1>📝 Full-Stack Blog App</h1>
 
 A powerful full-stack blogging platform that allows users to create, read, update, and delete blog posts. It integrates AI-powered features using LangChain for content suggestions and enhancements. Built with modern technologies including Next.js, Express, FastAPI, and LangChain.
 
