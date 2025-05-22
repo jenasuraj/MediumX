@@ -32,102 +32,48 @@ blog-app/<br/>
 ├── README.md
 
 
-🛠️ Installation
-1. Clone the Repository
-git clone https://github.com/your-username/fullstack-blog-app.git
-cd fullstack-blog-app
+<h1>🛠️ Installation</h1>
+<br/>
+<h2>1. Clone the Repository</h2><br/>
+git clone git@github.com:jenasuraj/MediumX.git<br/>
+cd MediumX
+<br/>
 
-2. Frontend Setup (Next.js)
-cd client
-npm install
+<h2>2. Frontend Setup (Next.js)</h2><br/>
+cd client<br/>
+npm install<br/>
 npm run dev
 
-Runs the frontend on http://localhost:3000
-3. Node Backend (Express)
-cd ../server-node
-npm install
-node index.js
+<br/>
 
-Runs Express server on http://localhost:5000
-4. Python Backend (FastAPI + LangChain)
-cd ../server-python
-pip install -r requirements.txt
-uvicorn main:app --reload
+<h2>3. Node Backend (Express)</h2>h2<br/>
+cd ../server-node</br>
+npm install<br/>
+node index.js<br/>
 
-Runs FastAPI on http://localhost:8000
+<br/>
 
-🔐 Environment Variables
-Create .env files in client, server-node, and server-python directories to securely store environment-specific configurations like API keys and database credentials.
-Example .env structure:
-# client/.env
-NEXT_PUBLIC_API_URL=http://localhost:5000
+<h2>4. Python Backend (FastAPI + LangChain)</h2><br/>
+cd ../server-python <br/>
+pip install -r requirements.txt<br/>
+uvicorn app:app --reload
 
-# server-node/.env
-PORT=5000
-DB_URI=your_database_uri
-JWT_SECRET=your_jwt_secret
-
-# server-python/.env
-FASTAPI_PORT=8000
-LANGCHAIN_API_KEY=your_langchain_api_key
+<br/>
 
 
-🧪 API Routes
-Express (Node.js)
 
-POST /api/register – Register a new user
-POST /api/login – User login
-GET /api/posts – Retrieve all blog posts
-POST /api/posts – Create a new blog post
-PUT /api/posts/:id – Update a blog post
-DELETE /api/posts/:id – Delete a blog post
+<h2>📌 To-Do</h2> <br/>
 
-FastAPI (Python)
-
-POST /ai/suggest-content – Uses LangChain to suggest blog ideas or enhance content
+ Add file upload for images<br/>
+ Enable markdown support<br/>
+ Add social media sharing<br/>
+ Deploy on Vercel (frontend) and Render/Heroku (backends)<br/>
 
 
-🧠 LangChain Integration
-The LangChain service provides smart content suggestions based on user input. You can pass partial content and get:
 
-Title suggestions
-Paragraph completions
-SEO-friendly tags
+<h2>🧑‍💻 Author</h2> <br/>
+Your Name – Suraj jena
 
-
-📸 Screenshots
-Add screenshots or GIFs of your UI and LangChain responses here.
-
-📌 To-Do
-
- Add file upload for images
- Enable markdown support
- Add social media sharing
- Deploy on Vercel (frontend) and Render/Heroku (backends)
-
-
-🧑‍💻 Author
-Your Name – @yourGitHub
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🚀 Deployment (Optional)
-To deploy the application:
-
-Frontend (Next.js): Use Vercel for easy deployment.cd client
-vercel
-
-
-Backend (Express/FastAPI): Use Render or Heroku.# For Express
-cd server-node
-heroku create
-git push heroku main
-
-# For FastAPI
-cd server-python
-heroku create
-git push heroku main
 
 
 
