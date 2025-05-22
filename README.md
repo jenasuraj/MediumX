@@ -17,11 +17,11 @@ Backend (Python)
 
 <h2>🔧 Features </h2>
 
-🔐 User Authentication (login/register)
-✍️ Create, Read, Update, Delete (CRUD) for blog posts
-🧠 AI-generated suggestions using LangChain
-📦 REST APIs built with Express and FastAPI
-🌐 Modern UI with responsive design
+🔐 User Authentication (login/register)<br/>
+✍️ Create, Read, Update, Delete (CRUD) for blog posts<br/>
+🧠 AI-generated suggestions using LangChain<br/>
+📦 REST APIs built with Express and FastAPI<br/>
+🌐 Modern UI with responsive design<br/>
 🔄 Real-time updates and seamless client-server communication
 
 
