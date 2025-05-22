@@ -32,7 +32,7 @@ blog-app/<br/>
 ├── README.md
 
 
-<h1>🛠️ Installation</h1>
+<h2>🛠️ Installation</h2>
 <br/>
 <h2>1. Clone the Repository</h2><br/>
 git clone git@github.com:jenasuraj/MediumX.git<br/>
@@ -77,4 +77,3 @@ Your Name – Suraj jena
 
 
 
-For database integration (e.g., PostgreSQL, MySQL, MongoDB), configure your database URI in the respective .env files and use an ORM like Prisma (for Express) or SQLAlchemy (for FastAPI).
