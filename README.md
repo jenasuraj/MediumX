@@ -4,19 +4,12 @@ A powerful full-stack blogging platform that allows users to create, read, updat
 
 <br/>
 <br/>
-<h3>🚀 Tech Stack</h3>
+<h2>🚀 Tech Stack</h2>
 
-Frontend
+Frontend (Next.js)
 Backend (Node)
 Backend (Python)
-AI
 
-
-
-Next.js
-Express.js
-FastAPI
-LangChain
 
 
 
