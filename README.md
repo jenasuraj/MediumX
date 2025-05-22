@@ -4,7 +4,7 @@ A powerful full-stack blogging platform that allows users to create, read, updat
 
 <br/>
 <br/>
-🚀 Tech Stack
+<h3>🚀 Tech Stack</h3>
 
 Frontend
 Backend (Node)
