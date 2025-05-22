@@ -23,3 +23,10 @@ A powerful full-stack blogging platform that allows users to create, read, updat
 
 ---
 
+
+#🛠️ Installation
+1. Clone the Repository
+
+  git clone https://github.com/your-username/fullstack-blog-app.git
+  cd fullstack-blog-app
+
