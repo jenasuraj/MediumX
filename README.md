@@ -7,7 +7,8 @@ A powerful full-stack blogging platform that allows users to create, read, updat
 <h2>🚀 Tech Stack</h2>
 
 Frontend (Next.js)
-Backend (Node)
+<br/>
+Backend (Node)<br/>
 Backend (Python)
 
 <br/>
