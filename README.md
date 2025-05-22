@@ -10,10 +10,14 @@ Frontend (Next.js)
 Backend (Node)
 Backend (Python)
 
+<br/>
+<br/>
+
+
+<h2>🔧 Features </h2>
 
 
 
-🔧 Features
 
 🔐 User Authentication (login/register)
 ✍️ Create, Read, Update, Delete (CRUD) for blog posts
