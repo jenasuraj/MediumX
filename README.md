@@ -22,15 +22,13 @@ Backend (Python)
 🌐 Modern UI with responsive design<br/>
 🔄 Real-time updates and seamless client-server communication
 
-
-<br/>
 <br/>
 
 <h2>📁 Project Structure</h2>
-blog-app/
-├── client/               # Next.js frontend
-├── server-node/          # Express.js backend for auth and REST APIs
-├── server-python/        # FastAPI backend for AI/ML features
+blog-app/<br/>
+├── client/               # Next.js frontend<br/>
+├── server-node/          # Express.js backend for auth and REST APIs<br/>
+├── server-python/        # FastAPI backend for AI/ML features<br/>
 ├── README.md
 
 
